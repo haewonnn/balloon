@@ -1,0 +1,235 @@
+
+
+/*  1 a 오른쪽으로  */
+	.move1 {
+	  animation-name: a;
+	  animation-duration: 4s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes a {
+	  0%   {transform: translate(0px, 0px)}
+	  50%  {transform: translate(-20px, 0px)}
+	  100%  {transform: translate(0px, 0px)}
+	}
+
+/*  2 b 왼쪽으로 */
+	.move2 {
+	  animation-name: b;
+	  animation-duration: 10s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes b {
+	  0%   {transform: translate(0px, 0px)}
+	  50%  {transform: translate(40px, 0px)}
+	  100%  {transform: translate(0px, 0px)}
+	}
+
+/*  3 c 위로 */
+	.move3 {
+	  animation-name: c;
+	  animation-duration: 7s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes c {
+	  0%   {transform: translate(0px, 0px)}
+	  50%  {transform: translate(0px, -30px)}
+	  100%  {transform: translate(0px, 0px)}
+	}
+
+/*  4 d 아래로 */
+	.move4 {
+	  animation-name: d;
+	  animation-duration: 5s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes d {
+	  0%   {transform: translate(0px, 0px)}
+	  50%  {transform: translate(0px, 20px)}
+	  100%  {transform: translate(0px, 0px)}
+	}
+
+
+/*  5 e 왼쪽 아래 대각선으로 */
+	.move5 {
+	  animation-name: e;
+	  animation-duration: 5s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes e {
+	  0%   {left:0px; top:0px;}
+	  50%  {left:-30px; top:20px;}
+	  100%  {left:0px; top:0px;}
+	}
+
+
+/*  6 f 오른쪽 위 대각선으로 */
+	.move6 {
+	  animation-name: f;
+	  animation-duration: 8s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes f {
+	  0%   {transform: translate(0px, 0px)}
+	  50%  {transform: translate(30px, -20px)}
+	  100%  {transform: translate(0px, 0px)}
+	}
+
+/*  ----- 개별 -----   */
+
+/*  7 g   */
+	.move7 {
+	  animation-name: g;
+	  animation-duration: 5s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes g {
+	  0%   {transform: translate(0vw, 0vw)}
+	  50%  {transform: translate(3vw, 2vw)}
+	  100%  {transform: translate(0vw, 0vw)}
+	}
+
+
+/*  8 h  */
+	.move8 {
+	  animation-name: h;
+	  animation-duration: 7s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes h{
+	  0%   {transform: translate(0vw, 0vw)}
+	  50%  {transform: translate(-5vw, 1vw)}
+	  100%  {transform: translate(0vw, 0vw)}
+	}
+
+
+/*  9 i   */
+	.move9 {
+	  animation-name: i;
+	  animation-duration: 10s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes i{
+	  0%   {transform: translate(0vw, 0vw)}
+	  50%  {transform: translate(7vw, -1vw)}
+	  100%  {transform: translate(0vw, 0vw)}
+	}
+
+
+/*  10 j   */
+	.move10 {
+	  animation-name: j;
+	  animation-duration: 9s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes j{
+	  0%   {transform: translate(-1vw, 0vw)}
+	  50%  {transform: translate(-7vw, 2vw);}
+	  100%  {transform: translate(-1vw, 0vw)}
+	}
+
+
+/*  11 k   */
+	.move11 {
+	  animation-name: k;
+	  animation-duration: 8s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes k{
+	  0%   {transform: translate(0vw, -2vw)}
+	  50%  {transform: translate(-2vw, -5vw)}
+	  100%  {transform: translate(0vw, -2vw)}
+	}
+
+/*  12 l   */
+	.move12 {
+	  animation-name: l;
+	  animation-duration: 8s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes l{
+	  0%   {transform: translate(-3vw, 1vw)}
+	  50%  {transform: translate(-5vw, 3vw)}
+	  100%  {transform: translate(-3vw, 1vw)}
+	}
+
+
+/*  13  m  */
+	.move13 {
+	  animation-name: m;
+	  animation-duration: 8s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes m{
+	  0%   {transform: translate(7vw, 0vw)}
+	  50%  {transform: translate(3vw, -1vw)}
+	  100%  {transform: translate(7vw, 0vw)}
+	}
+
+
+/*  14  n  */
+	.move14 {
+	  animation-name: n;
+	  animation-duration: 8s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes n{
+	  0%   {transform: translate(3vw, 0vw)}
+	  50%  {transform: translate(8vw, 2vw)}
+	  100%  {transform: translate(3vw, 0vw)}
+	}
+
+
+/*  15  o  */
+	.move15 {
+	  animation-name: o;
+	  animation-duration: 10s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes o{
+	  0%   {transform: translate(3vw, 3vw)}
+	  50%  {transform: translate(0vw, 0vw)}
+	  100%  {transform: translate(3vw, 3vw)}
+	}
+
+/*  16  p  */
+	.move16 {
+	  animation-name: p;
+	  animation-duration: 12s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes p{
+	  0%   {transform: translate(2vw, 4vw)}
+	  50%  {transform: translate(5vw, 6vw)}
+	  100%  {transform: translate(2vw, 4vw)}
+	}
+
+/*  17  q  */
+	.move17 {
+	  animation-name: q;
+	  animation-duration: 12s;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes q{
+	  0%   {transform: translate(0vw, 1vw)}
+	  50%  {transform: translate(4vw, 4vw)}
+	  100%  {transform: translate(0vw, 1vw)}
+	}
+
+
